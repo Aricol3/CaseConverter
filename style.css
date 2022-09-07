@@ -1,0 +1,28 @@
+.container {
+    height: 33em;
+}
+textarea {
+    font-size: 150%;
+    border: 5px solid black;
+    height: 350px;
+    width: 650px;
+}
+.title {
+    font-size: xx-large;
+    font-family: "JetBrains Mono Medium";
+    font-weight: bolder;
+}
+.buttons {
+    display: flex;
+}
+
+#upper-case, #lower-case, #proper-case,#sentence-case, #save-text-file {
+    width: 9em;
+    height: 5em;
+    color: black;
+    font-weight: bolder;
+    margin-right: 8px;
+    background-color: lightcoral;
+    border: 2px solid black;
+    cursor: pointer;
+}
